@@ -14,7 +14,7 @@ st.set_page_config(
 SECCIONES = {
     "Inicio": "modulos.inicio",
     "Datos visualizados": "modulos.datos_visualizados",
-    "Análisis": "modulos.analisis",
+    "Análisis": "modulos.graficas",
     "Severidad": "modulos.severidad",
     "Calidad de datos": "modulos.calidad_datos"
 }

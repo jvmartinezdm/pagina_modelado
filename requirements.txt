@@ -1,8 +1,20 @@
+ Aplicación web
+streamlit>=1.50,<2.0
 
-streamlit>=1.40,<2.0
-pandas>=2.2,<3.0
-numpy>=1.26,<3.0
-matplotlib>=3.8,<4.0
-seaborn>=0.13,<1.0
-plotly>=5.24,<7.0
-scikit-learn>=1.5,<2.0
+# Procesamiento de datos
+pandas>=2.3,<4.0
+numpy>=2.3,<3.0
+pyarrow>=20.0
+
+# Visualización de datos
+matplotlib>=3.11,<4.0
+seaborn>=0.13.2,<1.0
+plotly>=6.0,<7.0
+
+# Modelos de aprendizaje automático
+scikit-learn>=1.7,<2.0
+scipy>=1.16
+
+# Lectura de archivos Excel
+openpyxl>=3.1.5
+xlrd>=2.0.1

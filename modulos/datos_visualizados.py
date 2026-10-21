@@ -14,7 +14,7 @@ from utils.procesamiento import cargar_datos
 
 BASE = Path(__file__).resolve().parent.parent
 RUTA_DICCIONARIO = (
-    BASE / "datos" / "diccionario_variables.csv"
+    BASE / "datos" / "diccionario_variables_limpio.csv"
 )
 
 
